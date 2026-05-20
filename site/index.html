@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Анна Владич — Jazz Vocal</title>
+  <meta name="description" content="Анна Владич — профессиональная джазовая вокалистка. Живые выступления, подбор состава, репертуар под формат мероприятия.">
+  <meta property="og:title" content="Анна Владич — Jazz Vocal">
+  <meta property="og:description" content="Живой джаз для свадеб, корпоративов и частных вечеров. Подбор состава и программы под ваше мероприятие.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image" content="images/hero-new.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header aria-label="Шапка сайта">
+      <div class="logo">
+        <img src="images/logo.png" alt="Анна Владич">
+      </div>
+    <nav class="topnav" aria-label="Основная навигация">
+      <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="menu" id="site-menu">
+        <li><a href="#hero">Главная</a></li>
+        <li><a href="#about">О певице</a></li>
+        <li><a href="#lineups">Программы</a></li>
+        <li><a href="#gallery">Галерея</a></li>        
+        <li><a href="#booking">Заказ</a></li>
+      </ul>      
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero: яркий заголовок, фон можно заменить фото певицы над джаз-бендом -->
+    <section id="hero" class="hero" aria-label="Главный экран" style="--hero-bg: url('images/hero-new.jpg')">
+      <div class="hero-inner">
+        <h1 class="hero-title">Анна Владич</h1>
+        <p class="hero-sub">Тёплый голос. Живая подача. <br>Cостав музыкантов для любого мероприятия.</p>
+        <a class="cta" href="https://kassir.ru/artists/anna-vladich">Купить билет на шоу</a>
+      </div>
+    </section>
+    <!-- About: две колонки — фото + описание -->
+    <section id="about" class="about container">
+      <div class="about-text">
+        <h2>О певице</h2>
+        <p>Анна Владич — яркая джазовая певица и артистка, известная своим особенным стилем исполнения. Она активно выступает на концертных площадках России, где каждый вечер с её участием превращается в настоящее музыкальное событие. В её репертуаре песни самых разнообразных жанров: от озорной латины и энергичного свинга до чувственных баллад в стиле босса-нова и блюз.</p>
+        <p>Анна является лицом и голосом уникального на Юге России шоу «JAZZ CABARET», где самые известные хиты ХХ и ХХI века исполняются в авторской джазовой обработке. Зрителей всегда ждет захватывающее музыкальное шоу с полным погружением в атмосферу кабаре и бурлеска.</p>
+        <p>Её творчество — это не просто музыка, а живое искусство, способное удивить самого искушенного гостя.</p>
+      </div>
+    </section>
+
+    <!-- About photo: large full-width image similar to hero -->
+    <section id="about-photo" class="hero" aria-label="Фото певицы" style="--hero-bg: url('images/portrait.jpg')">
+      <div class="hero-inner container" aria-hidden="true"></div>
+    </section>
+
+    <!-- Lineups: карточки состава -->
+    <section id="lineups" class="lineups container">
+      <h2>Выберите подходящую вам программу</h2>
+      <div class="cards">
+        <article class="card" data-href="solo.html">
+          <img src="images/programs/solo.jpg" alt="Соло" loading="lazy" width="600" height="400">
+          <h3>Соло</h3>
+          <p>Идеально для камерных вечеров. Один голос и живой аккомпанемент или минус. Проникновенное исполнение любимых хитов.</p>
+          <!-- <a class="card-link" href="solo.html">Перейти на страницу</a> -->
+        </article>
+
+        <article class="card" data-href="lounge.html">
+          <img src="images/programs/lounge.jpg" alt="Лаунж" loading="lazy" width="600" height="400">
+          <h3>Лаунж</h3>
+          <p>Спокойная фоновая музыка для встреч гостей и ужинов. Мягкий джаз, босса-нова и легкие кавер-версии.</p>
+          <!-- <a class="card-link" href="lounge.html">Перейти на страницу</a> -->  
+        </article>
+
+        <article class="card" data-href="classic-jazz.html">
+          <img src="images/programs/classic-jazz.jpg" alt="Классический джаз" loading="lazy" width="600" height="400">
+          <h3>Классический джаз</h3>
+          <p>Золотая эра свинга и джазовых стандартов. Элегантная и драйвовая программа для ценителей жанра.</p>
+          <!-- <a class="card-link" href="classic-jazz.html">Перейти на страницу</a> -->
+        </article>
+
+        <article class="card" data-href="jazz-cabaret.html">
+          <img src="images/programs/jazz-cabaret.jpg" alt="Джаз-кабаре" loading="lazy" width="600" height="400">
+          <h3>Джаз-кабаре</h3>
+          <p>Яркое шоу с элементами театрализации. Зажигательные ритмы, блеск костюмов и атмосфера праздника.</p>
+          <!-- <a class="card-link" href="jazz-cabaret.html">Перейти на страницу</a> -->
+        </article>
+      </div>
+    </section>
+
+    
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery container">
+      <h2>Фотогалерея</h2>
+      <div class="gallery-grid">
+        <img src="images/photos/01.jpg" alt="Выступление 1" loading="lazy" width="800" height="600">
+        <img src="images/photos/02.jpg" alt="Выступление 2" loading="lazy" width="800" height="600">
+        <img src="images/photos/03.jpg" alt="Выступление 3" loading="lazy" width="800" height="600">
+        <img src="images/photos/04.jpg" alt="Выступление 4" loading="lazy" width="800" height="600">
+        <img src="images/photos/05.jpg" alt="Выступление 5" loading="lazy" width="800" height="600">
+        <img src="images/photos/06.jpg" alt="Выступление 6" loading="lazy" width="800" height="600">
+        <img src="images/photos/07.jpg" alt="Выступление 7" loading="lazy" width="800" height="600">
+        <img src="images/photos/08.jpg" alt="Выступление 8" loading="lazy" width="800" height="600">
+      </div>
+    </section>
+
+
+    
+
+    <!-- Booking: форма + телефоны -->
+    <section id="booking" class="booking container">
+      <h2>Пригласить исполнителя на мероприятие</h2>
+      <div class="contact-numbers">
+        <p>Booking: +7(918)4059580, +7(919)2309277</p>
+        <p>E-mail: vladichanna@ya.ru, 4059580@gmail.com</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h3>Анна Владич</h3>
+        <p>Профессиональный джазовый вокал для ваших мероприятий</p>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="#about">О певице</a></li>
+          <li><a href="#lineups">Составы</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#booking">Заказ</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Контакты</h4>
+        <ul>
+          <li>+7(918)4059580</li>
+          <li>+7(919)2309277</li>
+          <li>vladichanna@ya.ru</li>
+          <li>4059580@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom container">
+      <p>&copy; <span id="year"></span> Анна Владич — все права защищены.</p>
+      <p class="footer-links">
+        <a href="/privacy.html">Политика конфиденциальности</a> | 
+        <a href="/contacts.html">Контакты</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
