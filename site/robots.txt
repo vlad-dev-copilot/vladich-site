@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Yandex-specific directives
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Clean-param: ref /index.html
+
+# Sitemap location
+Sitemap: https://annavladich.ru/sitemap.xml
